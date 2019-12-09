@@ -37,6 +37,7 @@ public class ApplicationManager {
             loginHelper = new LoginHelper(this);
             logoutHelper = new LogoutHelper(this);
             createPostHelper = new CreatePostHelper(this);
+            editPostHelper = new EditPostHelper(this);
             deletePostHeleper = new DeletePostHeleper(this);
         }
 
@@ -48,6 +49,7 @@ public class ApplicationManager {
         private LoginHelper loginHelper;
         private LogoutHelper logoutHelper;
         private CreatePostHelper createPostHelper;
+        private EditPostHelper editPostHelper;
         private DeletePostHeleper deletePostHeleper;
 
         public void stop () {

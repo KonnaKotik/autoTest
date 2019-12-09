@@ -40,8 +40,8 @@ public class CreatePostHelper extends BaseHelper {
             js.executeScript("if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<div>уамтулоамтульмлдуьамлдмулотамоуа уомтуоаоукпа оутаошуткпаш уоаиукоашоук куйтауокта</div>'}", element);
         }*/
 //        driver.findElement(By.cssSelector(".form-group:nth-child(8) > .col-sm-10 label")).click();
-        PostData newPostData = applicationManager.getCreatePostHelper().getCreatePost();
-        Assert.assertTrue(data.equals(newPostData));
+   //     PostData newPostData = applicationManager.getCreatePostHelper().getCreatePost();
+  //      Assert.assertTrue(data.equals(newPostData));
 
         driver.findElement(By.id("create")).click();
 
